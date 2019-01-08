@@ -1,0 +1,19 @@
+{
+  "name": "teamworks-plm",
+  "version": "1.0.0",
+  "description": "node app for running sync between PLM and Teamworks using REST api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J.Leininger",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.0",
+    "mssql": "^4.1.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "tedious": "^2.2.4",
+    "underscore": "^1.8.3"
+  }
+}
